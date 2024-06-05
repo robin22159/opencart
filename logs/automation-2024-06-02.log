@@ -1,0 +1,49 @@
+14:49:51.431 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+14:49:51.443 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - clicked on my account
+14:49:51.742 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - clicked on register
+14:49:52.273 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - Entering user data
+14:49:52.470 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - clicked on privacy policy
+14:49:52.482 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - clicked on continue button
+14:49:52.653 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - validating confirmation message
+14:49:53.487 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - ***** Finished tc_001_account_registration *****
+14:51:06.449 [TestNG-tests-1] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+14:51:06.447 [TestNG-tests-3] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+14:51:06.512 [TestNG-tests-3] INFO  testCases.tc_001_account_registration - clicked on my account
+14:51:06.512 [TestNG-tests-1] INFO  testCases.tc_001_account_registration - clicked on my account
+14:51:06.643 [TestNG-tests-3] INFO  testCases.tc_001_account_registration - clicked on register
+14:51:06.681 [TestNG-tests-1] INFO  testCases.tc_001_account_registration - clicked on register
+14:51:07.334 [TestNG-tests-3] INFO  testCases.tc_001_account_registration - Entering user data
+14:51:07.400 [TestNG-tests-1] INFO  testCases.tc_001_account_registration - Entering user data
+14:51:07.978 [TestNG-tests-1] INFO  testCases.tc_001_account_registration - clicked on privacy policy
+14:51:08.011 [TestNG-tests-3] INFO  testCases.tc_001_account_registration - clicked on privacy policy
+14:51:08.049 [TestNG-tests-1] INFO  testCases.tc_001_account_registration - clicked on continue button
+14:51:08.079 [TestNG-tests-3] INFO  testCases.tc_001_account_registration - clicked on continue button
+14:51:08.381 [TestNG-tests-1] INFO  testCases.tc_001_account_registration - validating confirmation message
+14:51:08.381 [TestNG-tests-3] INFO  testCases.tc_001_account_registration - validating confirmation message
+14:51:09.143 [TestNG-tests-1] INFO  testCases.tc_001_account_registration - ***** Finished tc_001_account_registration *****
+14:51:09.216 [TestNG-tests-3] INFO  testCases.tc_001_account_registration - ***** Finished tc_001_account_registration *****
+14:51:10.941 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+14:51:10.941 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - clicked on my account
+14:51:11.272 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - clicked on register
+14:51:11.866 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - Entering user data
+14:51:12.133 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - clicked on privacy policy
+14:51:12.148 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - clicked on continue button
+14:51:12.326 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - validating confirmation message
+14:51:13.211 [TestNG-tests-2] INFO  testCases.tc_001_account_registration - ***** Finished tc_001_account_registration *****
+15:53:29.434 [main] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+15:53:29.463 [main] INFO  testCases.tc_001_account_registration - clicked on my account
+15:53:29.544 [main] INFO  testCases.tc_001_account_registration - clicked on register
+15:53:30.104 [main] INFO  testCases.tc_001_account_registration - Entering user data
+15:53:30.453 [main] INFO  testCases.tc_001_account_registration - clicked on privacy policy
+15:53:30.471 [main] INFO  testCases.tc_001_account_registration - clicked on continue button
+15:53:30.649 [main] INFO  testCases.tc_001_account_registration - validating confirmation message
+15:53:31.366 [main] INFO  testCases.tc_001_account_registration - ***** Finished tc_001_account_registration *****
+15:56:20.096 [main] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+15:56:20.132 [main] INFO  testCases.tc_001_account_registration - clicked on my account
+15:56:20.275 [main] INFO  testCases.tc_001_account_registration - clicked on register
+15:56:20.725 [main] INFO  testCases.tc_001_account_registration - Entering user data
+15:56:21.118 [main] INFO  testCases.tc_001_account_registration - clicked on privacy policy
+15:56:21.136 [main] INFO  testCases.tc_001_account_registration - clicked on continue button
+15:56:21.336 [main] INFO  testCases.tc_001_account_registration - validating confirmation message
+15:56:21.916 [main] INFO  testCases.tc_001_account_registration - ***** Finished tc_001_account_registration *****
+15:58:22.018 [main] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****

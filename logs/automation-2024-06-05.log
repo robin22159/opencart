@@ -1,0 +1,47 @@
+21:36:07.045 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:36:07.066 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:36:07.083 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:36:07.083 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:36:07.083 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:36:07.099 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:36:07.099 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:36:07.099 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:36:07.114 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:36:07.114 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:36:07.130 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:36:07.146 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:36:07.146 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:36:07.146 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:39:01.575 [main] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+21:39:01.605 [main] INFO  testCases.tc_001_account_registration - clicked on my account
+21:39:01.703 [main] INFO  testCases.tc_001_account_registration - clicked on register
+21:39:02.270 [main] INFO  testCases.tc_001_account_registration - Entering user data
+21:39:02.657 [main] INFO  testCases.tc_001_account_registration - clicked on privacy policy
+21:39:02.676 [main] INFO  testCases.tc_001_account_registration - clicked on continue button
+21:39:02.853 [main] INFO  testCases.tc_001_account_registration - validating confirmation message
+21:39:03.445 [main] INFO  testCases.tc_001_account_registration - ***** Finished tc_001_account_registration *****
+00:33:26.943 [main] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+00:33:26.969 [main] INFO  testCases.tc_001_account_registration - clicked on my account
+00:33:27.063 [main] INFO  testCases.tc_001_account_registration - clicked on register
+00:33:27.601 [main] INFO  testCases.tc_001_account_registration - Entering user data
+00:33:28.009 [main] INFO  testCases.tc_001_account_registration - clicked on privacy policy
+00:33:28.036 [main] INFO  testCases.tc_001_account_registration - clicked on continue button
+00:33:28.236 [main] INFO  testCases.tc_001_account_registration - validating confirmation message
+00:38:28.832 [main] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+00:38:28.857 [main] INFO  testCases.tc_001_account_registration - clicked on my account
+00:39:05.088 [main] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+00:39:05.110 [main] INFO  testCases.tc_001_account_registration - clicked on my account
+00:39:05.204 [main] INFO  testCases.tc_001_account_registration - clicked on register
+00:39:05.739 [main] INFO  testCases.tc_001_account_registration - Entering user data
+00:39:06.292 [main] INFO  testCases.tc_001_account_registration - clicked on privacy policy
+00:39:06.325 [main] INFO  testCases.tc_001_account_registration - clicked on continue button
+00:39:06.524 [main] INFO  testCases.tc_001_account_registration - validating confirmation message
+00:39:07.436 [main] INFO  testCases.tc_001_account_registration - ***** Finished tc_001_account_registration *****
+00:39:32.069 [main] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+00:39:32.105 [main] INFO  testCases.tc_001_account_registration - clicked on my account
+00:39:32.180 [main] INFO  testCases.tc_001_account_registration - clicked on register
+00:39:32.663 [main] INFO  testCases.tc_001_account_registration - Entering user data
+00:39:33.012 [main] INFO  testCases.tc_001_account_registration - clicked on privacy policy
+00:39:33.035 [main] INFO  testCases.tc_001_account_registration - clicked on continue button
+00:39:33.231 [main] INFO  testCases.tc_001_account_registration - validating confirmation message
+00:39:34.012 [main] INFO  testCases.tc_001_account_registration - ***** Finished tc_001_account_registration *****

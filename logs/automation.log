@@ -1,0 +1,24 @@
+13:42:39.148 [main] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+13:42:39.187 [main] INFO  testCases.tc_001_account_registration - clicked on my account
+13:42:39.294 [main] INFO  testCases.tc_001_account_registration - clicked on register
+13:42:39.972 [main] INFO  testCases.tc_001_account_registration - Entering user data
+13:42:40.347 [main] INFO  testCases.tc_001_account_registration - clicked on privacy policy
+13:42:40.367 [main] INFO  testCases.tc_001_account_registration - clicked on continue button
+13:42:40.569 [main] INFO  testCases.tc_001_account_registration - validating confirmation message
+13:42:41.597 [main] INFO  testCases.tc_001_account_registration - ***** Finished tc_001_account_registration *****
+14:11:27.245 [main] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+14:11:27.280 [main] INFO  testCases.tc_001_account_registration - clicked on my account
+14:11:27.361 [main] INFO  testCases.tc_001_account_registration - clicked on register
+14:11:27.941 [main] INFO  testCases.tc_001_account_registration - Entering user data
+14:11:28.421 [main] INFO  testCases.tc_001_account_registration - clicked on privacy policy
+14:11:28.450 [main] INFO  testCases.tc_001_account_registration - clicked on continue button
+14:11:28.723 [main] INFO  testCases.tc_001_account_registration - validating confirmation message
+14:11:29.404 [main] INFO  testCases.tc_001_account_registration - ***** Finished tc_001_account_registration *****
+14:25:00.653 [main] INFO  testCases.tc_001_account_registration - **** Started tc_001_account_registration *****
+14:25:00.682 [main] INFO  testCases.tc_001_account_registration - clicked on my account
+14:25:00.793 [main] INFO  testCases.tc_001_account_registration - clicked on register
+14:25:01.482 [main] INFO  testCases.tc_001_account_registration - Entering user data
+14:25:01.942 [main] INFO  testCases.tc_001_account_registration - clicked on privacy policy
+14:25:01.973 [main] INFO  testCases.tc_001_account_registration - clicked on continue button
+14:25:02.173 [main] INFO  testCases.tc_001_account_registration - validating confirmation message
+14:25:02.828 [main] INFO  testCases.tc_001_account_registration - ***** Finished tc_001_account_registration *****
