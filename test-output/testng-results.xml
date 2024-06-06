@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-05T00:39:28 IST" name="All Test Suite" finished-at="2024-06-05T00:39:34 IST" duration-ms="6259">
+  <suite started-at="2024-06-06T12:23:55 IST" name="All Test Suite" finished-at="2024-06-06T12:24:54 IST" duration-ms="58673">
     <groups>
+      <group name="ddt">
+        <method signature="tc_003_login_ddt.verify_login_ddt(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.tc_003_login_ddt@a3d8174]" name="verify_login_ddt" class="testCases.tc_003_login_ddt"/>
+      </group> <!-- ddt -->
+      <group name="regression">
+        <method signature="tc_002_login_test.verify_login()[pri:0, instance:testCases.tc_002_login_test@44821a96]" name="verify_login" class="testCases.tc_002_login_test"/>
+      </group> <!-- regression -->
       <group name="sanity">
-        <method signature="tc_001_account_registration.verify_account_registration()[pri:0, instance:testCases.tc_001_account_registration@79da8dc5]" name="verify_account_registration" class="testCases.tc_001_account_registration"/>
+        <method signature="tc_001_account_registration.verify_account_registration()[pri:0, instance:testCases.tc_001_account_registration@2bfc268b]" name="verify_account_registration" class="testCases.tc_001_account_registration"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="tc_001_account_registration.verify_account_registration()[pri:0, instance:testCases.tc_001_account_registration@79da8dc5]" name="verify_account_registration" class="testCases.tc_001_account_registration"/>
+        <method signature="tc_001_account_registration.verify_account_registration()[pri:0, instance:testCases.tc_001_account_registration@2bfc268b]" name="verify_account_registration" class="testCases.tc_001_account_registration"/>
+        <method signature="tc_002_login_test.verify_login()[pri:0, instance:testCases.tc_002_login_test@44821a96]" name="verify_login" class="testCases.tc_002_login_test"/>
+        <method signature="tc_003_login_ddt.verify_login_ddt(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.tc_003_login_ddt@a3d8174]" name="verify_login_ddt" class="testCases.tc_003_login_ddt"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-06-05T00:39:28 IST" name="C:/Users/robin/IdeaProjects/opencart" finished-at="2024-06-05T00:39:34 IST" duration-ms="6259">
-      <class name="testCases.tc_001_account_registration">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.tc_001_account_registration@79da8dc5]" started-at="2024-06-05T00:39:28 IST" name="setup" finished-at="2024-06-05T00:39:32 IST" duration-ms="3210" status="PASS">
+    <test started-at="2024-06-06T12:23:55 IST" name="Opencart master" finished-at="2024-06-06T12:24:54 IST" duration-ms="58673">
+      <class name="testCases.tc_003_login_ddt">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.tc_003_login_ddt@a3d8174]" started-at="2024-06-06T12:24:11 IST" name="setup" finished-at="2024-06-06T12:24:14 IST" duration-ms="2952" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +37,147 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.tc_001_account_registration@79da8dc5]" started-at="2024-06-05T00:39:32 IST" name="verify_account_registration" finished-at="2024-06-05T00:39:34 IST" duration-ms="1949" status="PASS">
+        <test-method signature="verify_login_ddt(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.tc_003_login_ddt@a3d8174]" started-at="2024-06-06T12:24:15 IST" name="verify_login_ddt" data-provider="LoginData" finished-at="2024-06-06T12:24:19 IST" duration-ms="3213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_ddt -->
+        <test-method signature="verify_login_ddt(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.tc_003_login_ddt@a3d8174]" started-at="2024-06-06T12:24:19 IST" name="verify_login_ddt" data-provider="LoginData" finished-at="2024-06-06T12:24:30 IST" duration-ms="11271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Laxmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_ddt -->
+        <test-method signature="verify_login_ddt(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.tc_003_login_ddt@a3d8174]" started-at="2024-06-06T12:24:30 IST" name="verify_login_ddt" data-provider="LoginData" finished-at="2024-06-06T12:24:41 IST" duration-ms="11502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laksh@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakshmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_ddt -->
+        <test-method signature="verify_login_ddt(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.tc_003_login_ddt@a3d8174]" started-at="2024-06-06T12:24:41 IST" name="verify_login_ddt" data-provider="LoginData" finished-at="2024-06-06T12:24:53 IST" duration-ms="11305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laks@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_ddt -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.tc_003_login_ddt@a3d8174]" started-at="2024-06-06T12:24:53 IST" name="teardown" finished-at="2024-06-06T12:24:54 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.tc_003_login_ddt -->
+      <class name="testCases.tc_002_login_test">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.tc_002_login_test@44821a96]" started-at="2024-06-06T12:24:04 IST" name="setup" finished-at="2024-06-06T12:24:07 IST" duration-ms="2971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login()[pri:0, instance:testCases.tc_002_login_test@44821a96]" started-at="2024-06-06T12:24:07 IST" name="verify_login" finished-at="2024-06-06T12:24:10 IST" duration-ms="3001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.tc_002_login_test@44821a96]" started-at="2024-06-06T12:24:10 IST" name="teardown" finished-at="2024-06-06T12:24:11 IST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.tc_002_login_test -->
+      <class name="testCases.tc_001_account_registration">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.tc_001_account_registration@2bfc268b]" started-at="2024-06-06T12:23:55 IST" name="setup" finished-at="2024-06-06T12:24:00 IST" duration-ms="4814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.tc_001_account_registration@2bfc268b]" started-at="2024-06-06T12:24:00 IST" name="verify_account_registration" finished-at="2024-06-06T12:24:03 IST" duration-ms="3108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.tc_001_account_registration@79da8dc5]" started-at="2024-06-05T00:39:34 IST" name="teardown" finished-at="2024-06-05T00:39:34 IST" duration-ms="698" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.tc_001_account_registration@2bfc268b]" started-at="2024-06-06T12:24:03 IST" name="teardown" finished-at="2024-06-06T12:24:04 IST" duration-ms="733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.tc_001_account_registration -->
-    </test> <!-- C:/Users/robin/IdeaProjects/opencart -->
+    </test> <!-- Opencart master -->
   </suite> <!-- All Test Suite -->
 </testng-results>
